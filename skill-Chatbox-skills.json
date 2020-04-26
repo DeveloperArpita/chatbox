@@ -1,0 +1,505 @@
+{
+  "intents": [
+    {
+      "intent": "Covid_Travel_Restrictions",
+      "examples": [
+        {
+          "text": "do i need to stay home"
+        },
+        {
+          "text": "I just travelled. What do I do?"
+        },
+        {
+          "text": "Is it safe to fly to Seattle?"
+        },
+        {
+          "text": "Should I cancel my flight to Denver?"
+        },
+        {
+          "text": "What if I urgently need to take a flight?"
+        },
+        {
+          "text": "Are there any travel restrictions in place yet?"
+        },
+        {
+          "text": "Can I travel?"
+        },
+        {
+          "text": "Do I need a doctor's note to travel?"
+        }
+      ],
+      "description": "Information on travel during Covid 19 pandemic."
+    },
+    {
+      "intent": "Covid_Protecting_Against_Infection",
+      "examples": [
+        {
+          "text": "How often should I wash my hands?"
+        },
+        {
+          "text": "What is the risk of my child becoming sick with COVID-19?"
+        },
+        {
+          "text": "what should i do to contain the spread of the virus"
+        },
+        {
+          "text": "How do I avoid covid-19?"
+        },
+        {
+          "text": "how do I ensure my family is safe?"
+        },
+        {
+          "text": "How do I protect myself?"
+        },
+        {
+          "text": "What’s the best way to prevent coronavirus?"
+        },
+        {
+          "text": "How to Prevent the Spread of the Virus"
+        },
+        {
+          "text": "Do I need to wear a face mask?"
+        },
+        {
+          "text": "How can I protect my family from the spread of coronavirus?"
+        },
+        {
+          "text": "prevent the spread of the virus"
+        },
+        {
+          "text": "How do I prevent myself from getting sick?"
+        },
+        {
+          "text": "Is it even possible to avoid the virus?"
+        }
+      ],
+      "description": "How to prevent infection."
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "stay well"
+        },
+        {
+          "text": "stay safe"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Covid_Case_Count",
+      "examples": [
+        {
+          "text": "Are there any cases near me?"
+        },
+        {
+          "text": "How many cases of the virus are there in the world?"
+        },
+        {
+          "text": "How many coronavirus cases are there in my area?"
+        },
+        {
+          "text": "how many people are infected in the us?"
+        },
+        {
+          "text": "how many people are sick in the US?"
+        },
+        {
+          "text": "is anyone near me sick"
+        },
+        {
+          "text": "what is the count of coronavirus infected people?"
+        },
+        {
+          "text": "Where are cases?"
+        },
+        {
+          "text": "How many cases of COVID-19 are in the US?"
+        },
+        {
+          "text": "has anyone died of coronavirus in my state?"
+        },
+        {
+          "text": "Does the US have a confirmed COVID case?"
+        },
+        {
+          "text": "Does MA have a confirmed COVID case?"
+        },
+        {
+          "text": "covid number in my state?"
+        }
+      ],
+      "description": "Information on number of Covid 19 cases."
+    },
+    {
+      "intent": "Covid_Description",
+      "examples": [
+        {
+          "text": "Has the cause of COVID-19 been identified?"
+        },
+        {
+          "text": "what is the coronavirus?"
+        },
+        {
+          "text": "what is novel coronavirus?"
+        },
+        {
+          "text": "What is COVID-19?"
+        },
+        {
+          "text": "Is the coronavirus the same as SARS?"
+        },
+        {
+          "text": "Is the coronavirus the same as MERS?"
+        },
+        {
+          "text": "Is the coronavirus the same as a cold?"
+        },
+        {
+          "text": "How is COVID-19 spread?"
+        },
+        {
+          "text": "How dangerous is this?"
+        },
+        {
+          "text": "Where did the coronavirus come from?"
+        }
+      ],
+      "description": "Overview of Covid 19."
+    },
+    {
+      "intent": "Covid_Testing_Results",
+      "examples": [
+        {
+          "text": "test outcomes?"
+        },
+        {
+          "text": "My doctor hasn't given me my test results back yet."
+        },
+        {
+          "text": "Its been a week. Who can I call to get my test results?"
+        },
+        {
+          "text": "How can I get my test results?"
+        },
+        {
+          "text": "Do my test results come in the mail?"
+        },
+        {
+          "text": "Who will give me my COVID test results?"
+        },
+        {
+          "text": "When can I get my results?"
+        }
+      ],
+      "description": "How to get Covid 19 test results."
+    },
+    {
+      "intent": "Covid_School_Shutdown",
+      "examples": [
+        {
+          "text": "Can my child go to school?"
+        },
+        {
+          "text": "What happens after the ordered three-week closure period ends?"
+        },
+        {
+          "text": "What does the ordered school closure mean for report cards?"
+        },
+        {
+          "text": "Should my child stay home from school?"
+        },
+        {
+          "text": "are schools open?"
+        },
+        {
+          "text": "How will the shutdown impact my child's attendance records?"
+        },
+        {
+          "text": "How can I get the latest news on my school closure?"
+        },
+        {
+          "text": "Are schools shut down?"
+        },
+        {
+          "text": "When will the schools open?"
+        },
+        {
+          "text": "Will students still graduate this year?"
+        }
+      ],
+      "description": "Information on local schools."
+    },
+    {
+      "intent": "Covid_Testing_Locations",
+      "examples": [
+        {
+          "text": "Can I test myself at my house?"
+        },
+        {
+          "text": "Can I get tested at my doctors?"
+        },
+        {
+          "text": "Where can I get tested?"
+        },
+        {
+          "text": "testing spots for coronavirus?"
+        },
+        {
+          "text": "testing locations?"
+        },
+        {
+          "text": "How do I get tested?"
+        },
+        {
+          "text": "Can I get tested at Walgreens?"
+        }
+      ],
+      "description": "Where to get tested for Covid 19."
+    },
+    {
+      "intent": "Covid_Symptoms",
+      "examples": [
+        {
+          "text": "I traveled to Italy recently. What do I do?"
+        },
+        {
+          "text": "should i get tested"
+        },
+        {
+          "text": "should I get tested if I have a cough?"
+        },
+        {
+          "text": "What are symptoms?"
+        },
+        {
+          "text": "am i sick"
+        },
+        {
+          "text": "Do I need to get tested?"
+        },
+        {
+          "text": "How do i know if I'm sick"
+        },
+        {
+          "text": "I have travled recently. What do I do?"
+        },
+        {
+          "text": "I think I might have the virus."
+        },
+        {
+          "text": "I think I'm infected"
+        }
+      ],
+      "description": "Symptoms related to Covid 19."
+    },
+    {
+      "intent": "Covid_Cleaning_Disinfecting",
+      "examples": [
+        {
+          "text": "What cleaning methods kill the coronavirus?"
+        },
+        {
+          "text": "Should I spray myself or my kids with disinfectant?"
+        },
+        {
+          "text": "How often do I need to clean my home to prevent the spread of coronavirus?"
+        },
+        {
+          "text": "All the stores are out of disinfecting wipes, what do I do?"
+        },
+        {
+          "text": "Are there disinfectants available that can inactivate (kill) COVID-19?"
+        },
+        {
+          "text": "Do I have to use bleach to kill coronavirus?"
+        },
+        {
+          "text": "Do I need lysol wipes?"
+        },
+        {
+          "text": "Does alcohol kill the coronavirus?"
+        },
+        {
+          "text": "How do I clean my home properly?"
+        },
+        {
+          "text": "how do i get rid of germs at my home"
+        },
+        {
+          "text": "Whats the difference between cleaning and disinfecting?"
+        }
+      ],
+      "description": "How to clean and disinfect."
+    },
+    {
+      "intent": "Covid_Event_Shutdowns",
+      "examples": [
+        {
+          "text": "Will I get a refund for a ticket I purchased?"
+        },
+        {
+          "text": "When will the NHL return?"
+        },
+        {
+          "text": "When will the NCAA championships be held?"
+        },
+        {
+          "text": "What sports are being cancelled?"
+        },
+        {
+          "text": "What is the maximum number of people allowed to meet right now?"
+        },
+        {
+          "text": "Should I feel safe going to the movies?"
+        },
+        {
+          "text": "How do I know if my concert is cancelled?"
+        },
+        {
+          "text": "Are groups of people allowed to meet?"
+        },
+        {
+          "text": "Are events being shut down?"
+        },
+        {
+          "text": "events and large gatherings"
+        },
+        {
+          "text": "Why is the government shutting down my event?"
+        }
+      ],
+      "description": "Information on events and large groups."
+    },
+    {
+      "intent": "greetingintent",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good day!!!!"
+        },
+        {
+          "text": "morning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "safety",
+      "examples": [
+        {
+          "text": "stay updated with every details here"
+        },
+        {
+          "text": "wash hands properly"
+        },
+        {
+          "text": "maintain social distancing"
+        },
+        {
+          "text": "stay at home"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Chatbox skills",
+  "language": "en",
+  "description": ""
+}
